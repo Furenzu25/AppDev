@@ -78,3 +78,27 @@ width: 80%;
 .table-container {
   margin: 20px; 
 }
+@media (max-width: 800px) {
+  .container-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+  }
+  .navbar{
+      height: auto;
+  }
+  .navbar h1{
+      font-size: 1.5em;
+  }
+}
+@media (max-width: 500px) {
+  .container-grid {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+  }.navbar{
+      height: auto;
+      flex: 13;
+  }
+  .navbar h1{
+      font-size: 1.5em;
+  }
+}
