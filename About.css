@@ -41,6 +41,27 @@ img{
     height: 90px;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar h1 {
+  font-size: 2em; /* Default font size */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header h3 {
+  font-size: 1em; /* Default font size */
+  line-height: 1.5; /* Adjust line height as needed */
+}
 .navbar li{
     width: 100%;
     text-align: center;
