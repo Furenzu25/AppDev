@@ -84,9 +84,8 @@ img{
 .navbar .flex{
     justify-content: space-between;
 }
-/* container for the content */
 .container{
-    max-width: 2000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 40px;
 }
